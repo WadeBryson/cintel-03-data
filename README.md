@@ -41,7 +41,7 @@ Copy this starter repository into your own GitHub account by clicking the 'Fork'
 With your repository folder open in VS Code:
 
 1. Click on this README.md file for editing.
-1. Update the README.md file by changing your name in the author link above.
+1. Update the README.md file by changing your name in the author link above
 1. Update the links in the README.md file to your username instead of denisecase.
 
 ## Save Your Changes
