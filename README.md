@@ -46,7 +46,7 @@ With your repository folder open in VS Code:
 
 ## Save Your Changes
 
-1. After making changes, you want to send them back to GitHub.
+1. After making changes, you want to send them back to GitHub
 1. In VS Code, find the "Source Control" icon and click it.
 1. Important: Enter a brief commit message describing your changes.
 1. Change the "Commit" button dropdown to "Commit and Push" to send your changes back to GitHub.
