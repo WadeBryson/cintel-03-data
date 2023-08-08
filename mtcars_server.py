@@ -14,7 +14,7 @@ import pathlib
 from shiny import render, reactive   # reactive not in original
 import matplotlib.pyplot as plt
 import pandas as pd
-# from plotnine import aes, geom_point, ggplot, ggtitle
+from plotnine import aes, geom_point, ggplot, ggtitle
 from shinywidgets import render_widget
 import plotly.express as px
 
