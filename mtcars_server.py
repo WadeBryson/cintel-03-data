@@ -18,7 +18,7 @@ logger, logname = setup_logger(__name__)
 def get_mtcars_server_functions(input, output, session):
     """Define functions to create UI outputs."""
 
-    path_to_data = pathlib.Path(__file__).parent.joinpath("data").joinpath("mtcars.csv")
+    path_to_data = pathlib.Path(__file__).parent.joinpath("data").joinpath("nuclear.csv")
     original_df = pd.read_csv(path_to_data)
 
     # Use the len() function to get the number of rows in the DataFrame.
@@ -46,8 +46,8 @@ def get_mtcars_server_functions(input, output, session):
         """
         plt = sns.scatterplot(
             data=original_df,
-            x="wt",
-            y="mpg",
+            x="Date.Year",
+            y="Data.Yeild.Upper",
         )
         return plt
 

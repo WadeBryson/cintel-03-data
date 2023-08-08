@@ -16,9 +16,9 @@ def get_mtcars_inputs():
         ui.input_slider(
             "MTCARS_MPG_RANGE",
             "Miles Per Gallon (MPG)",
-            min=10,
-            max=35,
-            value=[10, 35],
+            min=1940,
+            max=2000,
+            value=[1940, 2000],
         ),
         ui.tags.hr(),
         ui.tags.section(
@@ -43,23 +43,3 @@ def get_mtcars_inputs():
         ui.p("🕒 Please be patient. Outputs may take a few seconds to load."),
         ui.tags.hr(),
     )
-
-# New Input Widget
-# Transmission Type Slider
-# I am putting it in quotes so it does not break anything
-"""
-app_ui = ui.page_fluid(
-    ui.input_switch("Transmission", "Transmission Type"),
-    ui.output_text_verbatim("txt"),
-)
-
-
-def server(input, output, session):
-    @output
-    @render.text
-    def txt():
-        return f"Automatic Transmission: {input.Transmission()}"
-
-
-app = App(app_ui, server, debug=True)
-"""
